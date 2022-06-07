@@ -1,0 +1,89 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+a {
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+  button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+textarea {
+    resize: none;
+}
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* Global Styles */
+
+html {
+    font-size: 62.5%; /* 1 rem = 10px */
+
+    /* Variables */
+
+    /* Font sizes */
+    --header1: calc(2rem + 1vw); /* Fluid type -> 20px as base | To use this: ex. font-size: var(--header1); */
+    --header2: calc(3.5rem + 1vw);
+    --header3: calc(3rem + 1vw);
+    --header4: calc(2.4rem + 1vw);
+    --text: calc(1.5rem + 1vw);
+    --big: calc(2.4rem + 1vw);
+
+    /* Colors */
+    --special-color: #906272;
+    --main-color: #414141;
+    --gray-text: #525252;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    
+}
+
+h1 {
+    font-size: var(--header1);
+}
+
+li, button, label, input, p {
+    font-size: var(--text);
+}
+
+h2 {
+    font-size: var(--header2);
+}
+
+h3 {
+    font-size: var(--header3);
+}
+
+h4, h5 {
+    font-size: var(--header4);
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
