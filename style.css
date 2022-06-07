@@ -9,6 +9,22 @@
     background: transparent;
     font-family: inherit;
 }
+
+@font-face {
+    font-family: 'Ruhl';
+    src: url('./fonts/FrankRuhlLibre-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Rulh Medium';
+    src: url('./fonts/FrankRuhlLibre-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Vibes';
+    src: url('./fonts/GreatVibes-Regular.ttf');
+}
+
 a {
     text-decoration: none;
 }
